@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quote Machine</title>
+
+</head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="quote.js"></script>
+
+<style>
+    .jumbotron{
+        margin : 20% 25% 25% 25%;
+        background-color: bisque;
+        position:relative;
+    }
+
+    body{
+        background-image: url(http://www.intrawallpaper.com/static/images/cool_wooden_wall_1920x1200_cool_twitter_backgrounds_NZbq1gR.jpg);
+    }
+    .row{
+        position:absolute;
+        bottom:5px;
+        left:5px;
+        margin-right:auto;
+    }
+    .quotes{
+        font-family: Georgia;
+        font-size: medium;
+
+    }
+
+</style>
+<body>
+<div class="container-fluid">
+
+    <div class="jumbotron text-center">
+        <div class="quotes">
+            <blockquote >
+               <b><p class="quote text-center">If you are good at something, Never do it for free</p></b>
+                <footer><cite class="author">Joker</cite></footer>
+            </blockquote>
+        </div>
+        <div class="row">
+                <div class="col-xs-4 pull-left">
+                    <a id="tweet" href="#"
+                       class="btn btn-primary text-center btn-sm pull-left">Tweet</a>
+                </div>
+
+            <div class="col-xs-8 pull-right">
+                <button type="submit" class="btn btn-danger btn-sm pull-right text-center" id="btn-quote">Next Quote</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
