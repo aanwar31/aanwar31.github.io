@@ -7,6 +7,9 @@ $(document).ready(function () {
     var randomQuote;
     var randomNum;
 
+
+
+
     function getQuote() {
 
         var quotes=["Things work out best for those who make the best of how things work out.",
@@ -34,9 +37,13 @@ $(document).ready(function () {
         randomNum=Math.floor((Math.random()*quotes.length));
         randomQuote=quotes[randomNum];
         var randomAuthor=authors[randomNum];
+        $.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
 
-        $(".quote").text(randomQuote);
-        $(".author").text(randomAuthor);
+      $(".quote").text(a[0].content);
+      $(".author").text(a[0].title);
+    });
+      //  $(".quote").text(randomQuote);
+      //  $(".author").text(randomAuthor);
     }
     function changeColor(){
         var colors=["#AED6F1","#F5B7B1","#C39BD3","#85C1E9","#A9DFBF","#F9E79F","#D5DBDB"];
