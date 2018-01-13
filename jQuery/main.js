@@ -6,7 +6,7 @@
 $(document).ready(function () {
     var randomQuote;
     var randomNum;
-    $("#btn-quote").click();
+    $("#btn-quote").trigger('click');
 
 
 
