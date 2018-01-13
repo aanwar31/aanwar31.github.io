@@ -39,7 +39,7 @@ $(document).ready(function () {
         var randomAuthor=authors[randomNum];
         $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
 
-      $(".quote").text(a[0].content);
+      $(".quote").html(a[0].content);
       $(".author").text(a[0].title);
     });
       //  $(".quote").text(randomQuote);
