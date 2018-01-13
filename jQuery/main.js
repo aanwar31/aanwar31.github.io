@@ -6,10 +6,16 @@
 $(document).ready(function () {
     var randomQuote;
     var randomNum;
-    $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
-
-      $(".quote").html(a[0].content);
-      $(".author").text(a[0].title);
+    
+    $.ajax({
+        url:"https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1",
+        type: 'GET',
+        crossDomain: true,
+        success:function(a){
+           $(".quote").html(a[0].content);
+           $(".author").text(a[0].title); 
+        }
+    
     });
 
 
@@ -41,10 +47,15 @@ $(document).ready(function () {
         randomNum=Math.floor((Math.random()*quotes.length));
         randomQuote=quotes[randomNum];
         var randomAuthor=authors[randomNum];
-        $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
-
-      $(".quote").html(a[0].content);
-      $(".author").text(a[0].title);
+        $.ajax({
+        url:"https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1",
+        type: 'GET',
+        crossDomain: true,
+        success:function(a){
+           $(".quote").html(a[0].content);
+           $(".author").text(a[0].title); 
+        }
+    
     });
       //  $(".quote").text(randomQuote);
       //  $(".author").text(randomAuthor);
