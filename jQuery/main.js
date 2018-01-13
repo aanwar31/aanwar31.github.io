@@ -10,6 +10,7 @@ $(document).ready(function () {
     $.ajax({
         url:"https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1",
         type: 'GET',
+        async: false,
         crossDomain: true,
         success:function(a){
            $(".quote").html(a[0].content);
@@ -50,6 +51,7 @@ $(document).ready(function () {
         $.ajax({
         url:"https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1",
         type: 'GET',
+        async: false,
         crossDomain: true,
         success:function(a){
            $(".quote").html(a[0].content);
