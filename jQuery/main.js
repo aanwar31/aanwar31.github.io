@@ -37,7 +37,7 @@ $(document).ready(function () {
         randomNum=Math.floor((Math.random()*quotes.length));
         randomQuote=quotes[randomNum];
         var randomAuthor=authors[randomNum];
-        $.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
+        $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
 
       $(".quote").text(a[0].content);
       $(".author").text(a[0].title);
