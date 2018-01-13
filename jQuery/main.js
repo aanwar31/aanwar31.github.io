@@ -6,7 +6,11 @@
 $(document).ready(function () {
     var randomQuote;
     var randomNum;
-    $("#btn-quote").trigger('click');
+    $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
+
+      $(".quote").html(a[0].content);
+      $(".author").text(a[0].title);
+    });
 
 
 
