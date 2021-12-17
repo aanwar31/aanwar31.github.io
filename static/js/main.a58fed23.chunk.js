@@ -50,6 +50,7 @@
           { label: "More pics \ud83d\ude0d", id: "more pics2" },
           { label: "More pics \ud83d\ude0d", id: "more pics3" },
           { label: "More pics \ud83d\ude0d", id: "more pics4" },
+          { label: "Wish Us", id: "wish us" },
           // { label: "Where do I need to come?", id: "location" },
         ],
         w = {
@@ -76,7 +77,7 @@
             image: [p2, p3],
           },
           "more pics1": { 
-            text: ["Phool se karega aapka swagat."],
+            text: ["Phool se karenge aapka swagat."],
             image: [p4],
           },
           "more pics2": { 
@@ -84,13 +85,16 @@
              image: [p5,p7,p10,p11,p12,p13],
           },
           "more pics3": { 
-            text: ["Got Engaged !!!"],
+            text: ["One of the best moment of my life."],
             image: [p1],
           },
           "more pics4": { 
              text: ["Yaha may PIGHAL gaya !!!"],
              image: [g],
           },
+          "wish us": { 
+            text: ["Thanks you so much for your blessing and wishes."]
+         },
           
           // location: {
           //   text: [
@@ -113,9 +117,8 @@
           var e = Object(i.useState)([
               {
                 audio: v,
-                image: [h],
                 text: [
-                  "Hey ! I have a great news to share \ud83d\ude0a",
+                  "Hey ! I have a beautiful news to share \ud83d\ude0a",
                   "We, <b>Aamir</b> and <b>Saba</b> got Engaged. \ud83d\udc8d",
                   "And we want you to be a part of this celebration as we take the next step together soon.",
                 ],
