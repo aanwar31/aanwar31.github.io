@@ -45,7 +45,11 @@
             id: "sangeet date",
           },
           // { label: "Invitation Card & Video", id: "invitation" },
-          { label: "Want to see our pics \ud83d\ude0d", id: "personal pics" },
+          { label: "Want to see our pics \ud83d\ude0d", id: "engaged pics" },
+          { label: "More pics \ud83d\ude0d", id: "more pics1" },
+          { label: "More pics \ud83d\ude0d", id: "more pics2" },
+          { label: "More pics \ud83d\ude0d", id: "more pics3" },
+          { label: "More pics \ud83d\ude0d", id: "more pics4" },
           // { label: "Where do I need to come?", id: "location" },
         ],
         w = {
@@ -65,22 +69,29 @@
               "Luckily everything went well !!! ",
               "And here we are together sharing happiness and joy"
             ],
-            image: [x]
+            //image: [x]
           },
-          "personal pics": { 
-           // image: [m, p, g], 
+          "engaged pics": { 
             text: ["Happinesss !!!"] ,
-            // image: [p2, p3],
-            // text: ["Phool se karega aapka swagat."],
-            // image: [p4],
-            // text: ["Family"],
-            // image: [p1],
-            // text: ["Got Engaged !!!"],
-           image: [p5,p7,p10,p11,p12,p13],
-            // text: ["Yaha may PIGHAL gaya !!!"],
-            // image: [g],
-
+            image: [p2, p3],
           },
+          "more pics1": { 
+            text: ["Phool se karega aapka swagat."],
+            image: [p4],
+          },
+          "more pics2": { 
+             text: ["Family"],
+             image: [p5,p7,p10,p11,p12,p13],
+          },
+          "more pics3": { 
+            text: ["Got Engaged !!!"],
+            image: [p1],
+          },
+          "more pics4": { 
+             text: ["Yaha may PIGHAL gaya !!!"],
+             image: [g],
+          },
+          
           // location: {
           //   text: [
           //     "It's at <b>Sri Sitaramji Bhawan, Raniganj</b>",
@@ -104,7 +115,7 @@
                 audio: v,
                 image: [h],
                 text: [
-                  "Hey! I have a great news to share \ud83d\ude0a",
+                  "Hey ! I have a great news to share \ud83d\ude0a",
                   "We, <b>Aamir</b> and <b>Saba</b> got Engaged. \ud83d\udc8d",
                   "And we want you to be a part of this celebration as we take the next step together soon.",
                 ],
