@@ -65,20 +65,20 @@
               "Luckily everything went well !!! ",
               "And here we are together sharing happiness and joy"
             ],
-            //image: [g]
+            image: [x]
           },
           "personal pics": { 
            // image: [m, p, g], 
             text: ["Happinesss !!!"] ,
-            image: [p2, p3],
-            text: ["Phool se karega aapka swagat."],
-            image: [p4],
-            text: ["Family"],
-            image: [p1],
-            text: ["Got Engaged !!!"],
-            image: [p5,p7,p10,p11,p12,p13],
-            text: ["Yaha may PIGHAL gaya !!!"],
-            image: [g],
+            // image: [p2, p3],
+            // text: ["Phool se karega aapka swagat."],
+            // image: [p4],
+            // text: ["Family"],
+            // image: [p1],
+            // text: ["Got Engaged !!!"],
+            // image: [p5,p7,p10,p11,p12,p13],
+            // text: ["Yaha may PIGHAL gaya !!!"],
+            // image: [g],
 
           },
           // location: {
