@@ -43,7 +43,7 @@
               // "Yeah we know, it's less than even a month and we are super nervous!",
               // "Please be there by 7pm \ud83d\ude4f ",
             ],
-            audio: v,
+            //audio: v,
           },
           "sangeet date": {
             text: [
@@ -75,6 +75,7 @@
       var N = function () {
           var e = Object(i.useState)([
               {
+                audio: v,
                 image: [h],
                 text: [
                   "Hey! I have a great news to share \ud83d\ude0a",
