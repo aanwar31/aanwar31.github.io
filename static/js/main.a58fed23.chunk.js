@@ -25,6 +25,19 @@
         O = a.p + "static/media/loading.e8db860b.gif",
         v = a.p + "static/media/wedding.b5887c68.mp3",
         x = a.p + "static/media/e-video.e413b067.mp4",
+        p1= a.p + "static/media/pic1.jpg",
+        p3= a.p + "static/media/pic3.jpg",
+        p2= a.p + "static/media/pic2.jpg",
+        p4= a.p + "static/media/pic4.jpg",
+        p5= a.p + "static/media/pic6.jpg",
+        p6= a.p + "static/media/pic7.jpg",
+        p7= a.p + "static/media/pic8.jpg",
+        p8= a.p + "static/media/pic9.jpg",
+       // p9= a.p + "static/media/pic10.jpg",
+        p10= a.p + "static/media/pic11.jpg",
+        p11= a.p + "static/media/pic12.jpg",
+        p12= a.p + "static/media/pic13.jpg",
+        p13= a.p + "static/media/pic14.jpg",
         y = [
           { label: "\ud83d\udcc5 We got Engaged on ", id: "engagement date" },
           {
@@ -52,25 +65,38 @@
               "Luckily everything went well !!! ",
               "And here we are together sharing happiness and joy"
             ],
-            image: [g]
+            //image: [g]
           },
-          "personal pics": { image: [m, p, g], text: ["Here you go"] },
-          location: {
-            text: [
-              "It's at <b>Sri Sitaramji Bhawan, Raniganj</b>",
-              "you can just follow google maps:",
-            ],
-            location:
-              "https://tars-file-upload.s3.amazonaws.com/ByNADi/e8e72425e745b4a32703175a09276c0a--staticmap.png",
-            link: "https://goo.gl/maps/AA7CtMdjwJcqzzs68",
+          "personal pics": { 
+           // image: [m, p, g], 
+            text: ["Happinesss !!!"] ,
+            image: [p2, p3],
+            text: ["Phool se karega aapka swagat."],
+            image: [p4],
+            text: ["Family"],
+            image: [p1],
+            text: ["Got Engaged !!!"],
+            image: [p5,p7,p10,p11,p12,p13],
+            text: ["Yaha may PIGHAL gaya !!!"],
+            image: [g],
+
           },
-          invitation: {
-            text: [
-              "We may not have it all together, but together we have it all.",
-            ],
-            image: [f],
-            video: x,
-          },
+          // location: {
+          //   text: [
+          //     "It's at <b>Sri Sitaramji Bhawan, Raniganj</b>",
+          //     "you can just follow google maps:",
+          //   ],
+          //   location:
+          //     "https://tars-file-upload.s3.amazonaws.com/ByNADi/e8e72425e745b4a32703175a09276c0a--staticmap.png",
+          //   link: "https://goo.gl/maps/AA7CtMdjwJcqzzs68",
+          // },
+          // invitation: {
+          //   text: [
+          //     "We may not have it all together, but together we have it all.",
+          //   ],
+          //   image: [f],
+          //   video: x,
+          // },
         };
       var N = function () {
           var e = Object(i.useState)([
@@ -118,7 +144,7 @@
                   ((B.current.src = v), B.current.pause(), B.current.play()),
                   "invitation" === k &&
                     D.current.addEventListener("playing", function () {
-                      document.getElementById("audio").pause();
+                      //document.getElementById("audio").pause();
                     });
               },
               [k]
