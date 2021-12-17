@@ -60,7 +60,7 @@
           },
           "sangeet date": {
             text: [
-              "It was on <b>4h</b> of October, 2019.",
+              "It was on <b>4h</b> of October, 2019. \ud83d\ude0d",
               "We met on facebook and after being good friends, I decided to take one more step further and send a marraige proposal to her family.",
               "Luckily everything went well !!! ",
               "And here we are together sharing happiness and joy"
@@ -76,7 +76,7 @@
             // text: ["Family"],
             // image: [p1],
             // text: ["Got Engaged !!!"],
-            // image: [p5,p7,p10,p11,p12,p13],
+           image: [p5,p7,p10,p11,p12,p13],
             // text: ["Yaha may PIGHAL gaya !!!"],
             // image: [g],
 
@@ -233,23 +233,23 @@
                                               type: "audio/mpeg",
                                             }),
                                           }),
-                                        e.video &&
-                                          Object(n.jsx)("div", {
-                                            className: "video-container",
-                                            children: Object(n.jsx)("video", {
-                                              ref: D,
-                                              width: "200",
-                                              height: "240",
-                                              controls: !0,
-                                              children: Object(n.jsx)(
-                                                "source",
-                                                {
-                                                  src: e.video,
-                                                  type: "video/mp4",
-                                                }
-                                              ),
-                                            }),
-                                          }),
+                                        // e.video &&
+                                        //   Object(n.jsx)("div", {
+                                        //     className: "video-container",
+                                        //     children: Object(n.jsx)("video", {
+                                        //       ref: D,
+                                        //       width: "200",
+                                        //       height: "240",
+                                        //       controls: !0,
+                                        //       children: Object(n.jsx)(
+                                        //         "source",
+                                        //         {
+                                        //           src: e.video,
+                                        //           type: "video/mp4",
+                                        //         }
+                                        //       ),
+                                        //     }),
+                                        //   }),
                                         e.typing &&
                                           Object(n.jsx)("div", {
                                             className: "loading chat-bubble",
