@@ -19,7 +19,21 @@
     "static/media/img2.feea2512.jpg": "/static/media/img2.feea2512.jpg",
     "static/media/loading.e8db860b.gif": "/static/media/loading.e8db860b.gif",
     "static/media/saba.978b841a.jpg": "/static/media/saba.978b841a.jpg",
-    "static/media/wedding.b5887c68.mp3": "/static/media/wedding.b5887c68.mp3"
+    "static/media/wedding.b5887c68.mp3": "/static/media/wedding.b5887c68.mp3",
+    "static/media/pic1.jpg":"/static/media/pic1.jpg",
+    "static/media/pic2.jpg":"/static/media/pic2.jpg",
+    "static/media/pic3.jpg":"/static/media/pic3.jpg",
+    "static/media/pic4.jpg":"/static/media/pic4.jpg",
+    "static/media/pic6.jpg":"/static/media/pic6.jpg",
+    "static/media/pic7.jpg":"/static/media/pic7.jpg",
+    "static/media/pic8.jpg":"/static/media/pic8.jpg",
+    "static/media/pic9.jpg":"/static/media/pic9.jpg",
+    "static/media/pic11.jpg":"/static/media/pic11.jpg",
+    "static/media/pic12.jpg":"/static/media/pic12.jpg",
+    "static/media/pic13.jpg":"/static/media/pic13.jpg",
+    "static/media/pic14.jpg":"/static/media/pic14.jpg"
+
+
   },
   "entrypoints": [
     "static/js/runtime-main.094594f4.js",
