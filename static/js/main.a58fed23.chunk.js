@@ -65,10 +65,11 @@
           },
           "sangeet date": {
             text: [
-              "It was on <b>4h</b> of October, 2019. \ud83d\ude0d",
+              "After the gap of almost more than 14 years since our school days",
+              "It was on <b>4th</b> of October, 2019. \ud83d\ude0d",
               "We met on facebook and after being good friends, I decided to take one more step further and send a marraige proposal to her family.",
               "Luckily everything went well !!! ",
-              "And here we are together sharing happiness and joy"
+              "And here we are together sharing our happiness and joy"
             ],
             //image: [x]
           },
@@ -93,7 +94,7 @@
              image: [g],
           },
           "wish us": { 
-            text: ["Thanks you so much for your blessing and wishes."]
+            text: ["Thank you so much for your blessing and wishes."]
          },
           
           // location: {
