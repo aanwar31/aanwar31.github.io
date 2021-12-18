@@ -87,9 +87,8 @@
           },
           "more pics3": { 
             text: [
-              "<i>I dreamed of this day from the moment I decided to make you mine</i>.",
-              "<i>Finally, the day has come to officially make you mine</i>.",
-              "<b>Happy Engagement to my better half \uDBBA\uDF0C</b>"
+              "<i>\"I dreamed of this day from the moment I decided to make you mine\"</i>",
+              "<i>\"Finally, the day has come to officially make you mine\"</i>"
             ],
             image: [p1],
           },
