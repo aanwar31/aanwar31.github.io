@@ -86,11 +86,15 @@
              image: [p5,p7,p10,p11,p12,p13],
           },
           "more pics3": { 
-            text: ["One of the best moment of my life."],
+            text: [
+              "<i>I dreamed of this day from the moment I decided to make you mine</i>.",
+              "<i>Finally, the day has come to officially make you mine</i>.",
+              "<b>Happy Engagement to my better half \uDBBA\uDF0C</b>"
+            ],
             image: [p1],
           },
           "more pics4": { 
-             text: ["Yaha may PIGHAL gaya !!!"],
+             text: ["Yaha may PIGHAL gaya \ud83d\ude0d"],
              image: [g],
           },
           "wish us": { 
